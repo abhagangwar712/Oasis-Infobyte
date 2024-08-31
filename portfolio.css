@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007B8F;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .header-content h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+header .header-content p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+header i {
+    margin-right: 8px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #004d66;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #007B8F;
+    border-radius: 4px;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #007B8F;
+    border-bottom: 2px solid #007B8F;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.internships, .projects {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#about p, #contact p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.contact-info i {
+    margin-right: 8px;
+}
+
+.contact-info a {
+    color: #007B8F;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #007B8F;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header .header-content h1 {
+        font-size: 2rem;
+    }
+
+    header .header-content p {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        padding: 10px 15px;
+        display: block;
+    }
+}
